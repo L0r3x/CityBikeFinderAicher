@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A44CF531A8D67B9004C6448 /* StationTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44CF521A8D67B9004C6448 /* StationTableCell.m */; };
+		2A44CF561A8D6ECE004C6448 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44CF551A8D6ECE004C6448 /* RouteViewController.m */; };
+		2A45B10A1A89346200D3AE32 /* ShowInfosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A45B1091A89346200D3AE32 /* ShowInfosViewController.m */; };
+		2A45B10D1A894E6600D3AE32 /* CityBikeStationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A45B10C1A894E6600D3AE32 /* CityBikeStationObject.m */; };
+		2A45B1131A8AA38300D3AE32 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A45B1121A8AA38300D3AE32 /* MapKit.framework */; };
+		2A45B1151A8AA39600D3AE32 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A45B1141A8AA39600D3AE32 /* CoreLocation.framework */; };
+		2A45B1171A8AA39F00D3AE32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A45B1161A8AA39F00D3AE32 /* UIKit.framework */; };
+		2A45B1191A8AA3AE00D3AE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A45B1181A8AA3AE00D3AE32 /* Foundation.framework */; };
+		2A45B11B1A8AA3BA00D3AE32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A45B11A1A8AA3BA00D3AE32 /* CoreGraphics.framework */; };
 		2A72C21F1A6988EB0015A7C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A72C21E1A6988EB0015A7C1 /* main.m */; };
 		2A72C2221A6988EB0015A7C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A72C2211A6988EB0015A7C1 /* AppDelegate.m */; };
 		2A72C2251A6988EB0015A7C1 /* CityBikeFinder2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A72C2231A6988EB0015A7C1 /* CityBikeFinder2.xcdatamodeld */; };
-		2A72C2281A6988EB0015A7C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A72C2271A6988EB0015A7C1 /* ViewController.m */; };
+		2A72C2281A6988EB0015A7C1 /* CityBikeMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A72C2271A6988EB0015A7C1 /* CityBikeMapsViewController.m */; };
 		2A72C22B1A6988EB0015A7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A72C2291A6988EB0015A7C1 /* Main.storyboard */; };
 		2A72C22D1A6988EB0015A7C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A72C22C1A6988EB0015A7C1 /* Images.xcassets */; };
 		2A72C2301A6988EB0015A7C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A72C22E1A6988EB0015A7C1 /* LaunchScreen.xib */; };
@@ -28,14 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A44CF511A8D4319004C6448 /* StationTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationTableCell.h; sourceTree = "<group>"; };
+		2A44CF521A8D67B9004C6448 /* StationTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationTableCell.m; sourceTree = "<group>"; };
+		2A44CF541A8D6ECE004C6448 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		2A44CF551A8D6ECE004C6448 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		2A45B1081A89346200D3AE32 /* ShowInfosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowInfosViewController.h; path = ../ShowInfosViewController.h; sourceTree = "<group>"; };
+		2A45B1091A89346200D3AE32 /* ShowInfosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowInfosViewController.m; path = ../ShowInfosViewController.m; sourceTree = "<group>"; };
+		2A45B10B1A894E6600D3AE32 /* CityBikeStationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityBikeStationObject.h; sourceTree = "<group>"; };
+		2A45B10C1A894E6600D3AE32 /* CityBikeStationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityBikeStationObject.m; sourceTree = "<group>"; };
+		2A45B1121A8AA38300D3AE32 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2A45B1141A8AA39600D3AE32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2A45B1161A8AA39F00D3AE32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A45B1181A8AA3AE00D3AE32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A45B11A1A8AA3BA00D3AE32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2A72C2191A6988EB0015A7C1 /* CityBikeFinder2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityBikeFinder2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A72C21D1A6988EB0015A7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A72C21E1A6988EB0015A7C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A72C2201A6988EB0015A7C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A72C2211A6988EB0015A7C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2A72C2241A6988EB0015A7C1 /* CityBikeFinder2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CityBikeFinder2.xcdatamodel; sourceTree = "<group>"; };
-		2A72C2261A6988EB0015A7C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A72C2271A6988EB0015A7C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A72C2261A6988EB0015A7C1 /* CityBikeMapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityBikeMapsViewController.h; sourceTree = "<group>"; };
+		2A72C2271A6988EB0015A7C1 /* CityBikeMapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityBikeMapsViewController.m; sourceTree = "<group>"; };
 		2A72C22A1A6988EB0015A7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A72C22C1A6988EB0015A7C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A72C22F1A6988EB0015A7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -49,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A45B11B1A8AA3BA00D3AE32 /* CoreGraphics.framework in Frameworks */,
+				2A45B1191A8AA3AE00D3AE32 /* Foundation.framework in Frameworks */,
+				2A45B1171A8AA39F00D3AE32 /* UIKit.framework in Frameworks */,
+				2A45B1151A8AA39600D3AE32 /* CoreLocation.framework in Frameworks */,
+				2A45B1131A8AA38300D3AE32 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,11 @@
 		2A72C2101A6988EB0015A7C1 = {
 			isa = PBXGroup;
 			children = (
+				2A45B11A1A8AA3BA00D3AE32 /* CoreGraphics.framework */,
+				2A45B1181A8AA3AE00D3AE32 /* Foundation.framework */,
+				2A45B1161A8AA39F00D3AE32 /* UIKit.framework */,
+				2A45B1141A8AA39600D3AE32 /* CoreLocation.framework */,
+				2A45B1121A8AA38300D3AE32 /* MapKit.framework */,
 				2A72C21B1A6988EB0015A7C1 /* CityBikeFinder2 */,
 				2A72C2381A6988EB0015A7C1 /* CityBikeFinder2Tests */,
 				2A72C21A1A6988EB0015A7C1 /* Products */,
@@ -83,10 +115,11 @@
 		2A72C21B1A6988EB0015A7C1 /* CityBikeFinder2 */ = {
 			isa = PBXGroup;
 			children = (
+				2ADB9ECD1A8E889E009F85D4 /* Objects */,
+				2ADB9ECC1A8E8882009F85D4 /* TableViewCells */,
+				2ADB9ECB1A8E885D009F85D4 /* ViewController */,
 				2A72C2201A6988EB0015A7C1 /* AppDelegate.h */,
 				2A72C2211A6988EB0015A7C1 /* AppDelegate.m */,
-				2A72C2261A6988EB0015A7C1 /* ViewController.h */,
-				2A72C2271A6988EB0015A7C1 /* ViewController.m */,
 				2A72C2291A6988EB0015A7C1 /* Main.storyboard */,
 				2A72C22C1A6988EB0015A7C1 /* Images.xcassets */,
 				2A72C22E1A6988EB0015A7C1 /* LaunchScreen.xib */,
@@ -120,6 +153,37 @@
 				2A72C23A1A6988EB0015A7C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ADB9ECB1A8E885D009F85D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A72C2261A6988EB0015A7C1 /* CityBikeMapsViewController.h */,
+				2A72C2271A6988EB0015A7C1 /* CityBikeMapsViewController.m */,
+				2A45B1081A89346200D3AE32 /* ShowInfosViewController.h */,
+				2A45B1091A89346200D3AE32 /* ShowInfosViewController.m */,
+				2A44CF541A8D6ECE004C6448 /* RouteViewController.h */,
+				2A44CF551A8D6ECE004C6448 /* RouteViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2ADB9ECC1A8E8882009F85D4 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2A44CF511A8D4319004C6448 /* StationTableCell.h */,
+				2A44CF521A8D67B9004C6448 /* StationTableCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		2ADB9ECD1A8E889E009F85D4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2A45B10B1A894E6600D3AE32 /* CityBikeStationObject.h */,
+				2A45B10C1A894E6600D3AE32 /* CityBikeStationObject.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +288,12 @@
 			files = (
 				2A72C2221A6988EB0015A7C1 /* AppDelegate.m in Sources */,
 				2A72C2251A6988EB0015A7C1 /* CityBikeFinder2.xcdatamodeld in Sources */,
-				2A72C2281A6988EB0015A7C1 /* ViewController.m in Sources */,
+				2A72C2281A6988EB0015A7C1 /* CityBikeMapsViewController.m in Sources */,
 				2A72C21F1A6988EB0015A7C1 /* main.m in Sources */,
+				2A44CF531A8D67B9004C6448 /* StationTableCell.m in Sources */,
+				2A45B10D1A894E6600D3AE32 /* CityBikeStationObject.m in Sources */,
+				2A45B10A1A89346200D3AE32 /* ShowInfosViewController.m in Sources */,
+				2A44CF561A8D6ECE004C6448 /* RouteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +484,7 @@
 				2A72C2411A6988EB0015A7C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A72C2421A6988EB0015A7C1 /* Build configuration list for PBXNativeTarget "CityBikeFinder2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +493,7 @@
 				2A72C2441A6988EB0015A7C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
